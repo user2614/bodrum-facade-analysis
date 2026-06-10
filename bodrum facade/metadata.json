@@ -1,0 +1,10 @@
+{
+  "research_question": "How do the dimensions, materials, and bounding box properties of Bodrum traditional house facade elements vary spatially?",
+  "data_source": "Manual annotation via makesense.ai and manual coordinate entry",
+  "subcategory": "Bodrum Traditional House Facades",
+  "total_records": "700 facade elements across 84 unique buildings",
+  "creation_date": "2026-06-10",
+  "libraries_used": ["pandas", "matplotlib", "seaborn", "folium"],
+  "group_members": ["Elif Tekinay"],
+  "columns": ["label_name", "bbox_x", "bbox_y", "bbox_width", "bbox_height", "image_name", "malzeme", "Enlem (DD)", "Boylam (DD)"]
+}

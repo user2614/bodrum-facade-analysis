@@ -1,0 +1,11 @@
+{
+  "label_name": "Classification of the architectural element (bina, dograma, etc.)",
+  "bbox_x": "Top-left x-coordinate in pixels",
+  "bbox_y": "Top-left y-coordinate in pixels",
+  "bbox_width": "Width of the element in pixels",
+  "bbox_height": "Height of the element in pixels",
+  "image_name": "Identifier for the source image",
+  "malzeme": "Material classification (Stone, Stucco, etc.)",
+  "Enlem (DD)": "Latitude coordinate",
+  "Boylam (DD)": "Longitude coordinate"
+}
