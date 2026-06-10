@@ -1,10 +1,25 @@
 {
-  "research_question": "How do the dimensions, materials, and bounding box properties of Bodrum traditional house facade elements vary spatially?",
-  "data_source": "Manual annotation via makesense.ai and manual coordinate entry",
-  "subcategory": "Bodrum Traditional House Facades",
-  "total_records": "700 facade elements across 84 unique buildings",
+  "project_title": "Bodrum Facade Elements Dataset",
+  "researcher": "Elif Tekinay",
+  "version": "1.0.0",
   "creation_date": "2026-06-10",
-  "libraries_used": ["pandas", "matplotlib", "seaborn", "folium"],
-  "group_members": ["Elif Tekinay"],
-  "columns": ["label_name", "bbox_x", "bbox_y", "bbox_width", "bbox_height", "image_name", "malzeme", "Enlem (DD)", "Boylam (DD)"]
+  "description": "A comprehensive morphological analysis of traditional Bodrum house facades, focusing on the consistency of architectural elements (jambs, frames, materials).",
+  "research_question": "How do the dimensions, materials, and bounding box properties of Bodrum traditional house facade elements vary spatially, and what is the statistical distribution of frame-to-jamb ratios across different geographical coordinates?",
+  "dataset_specifications": {
+    "total_facade_elements": 700,
+    "total_unique_buildings": 84,
+    "geographic_focus": "Bodrum, Muğla (Traditional/Historical neighborhoods)",
+    "annotation_tool": "makesense.ai"
+  },
+  "technical_stack": {
+    "data_processing": ["Python", "Pandas", "NumPy", "OpenCV-Python"],
+    "visualization": ["D3.js", "Matplotlib", "Seaborn", "Folium"],
+    "environment": ["Jupyter Notebook", "Google Colab"]
+  },
+  "ethics_and_methodology": {
+    "data_collection": "Manual annotation and on-site field documentation.",
+    "scraping": "None; no automated scraping utilized.",
+    "data_reliability": "Manual validation and coordinate cross-referencing performed."
+  },
+  "license": "MIT"
 }
